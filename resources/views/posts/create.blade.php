@@ -7,13 +7,13 @@
             @csrf
             <div class="form-group">
                 <label for="title">Заголовок</label>
-                <input type="text" name="title" id="title" class="form-control" required>
+                <input type="text" class="form-control" id="title" name="title" required>
             </div>
             <div class="form-group">
                 <label for="content">Контент</label>
-                <textarea name="content" id="content" class="form-control" rows="5" required></textarea>
+                <textarea class="form-control" id="content" name="content" rows="5" required></textarea>
             </div>
-            <button type="submit" class="btn btn-success mt-3">Зберегти</button>
+            <button type="submit" class="btn btn-success">Зберегти</button>
         </form>
     </div>
 @endsection

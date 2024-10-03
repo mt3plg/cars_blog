@@ -13,6 +13,6 @@ class AdminMiddleware
             return $next($request);
         }
 
-        return redirect('/'); // Повернення на головну, якщо користувач не є адміністратором
+        return redirect('/');
     }
 }

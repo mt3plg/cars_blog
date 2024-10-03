@@ -19,7 +19,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'role', // Додаємо поле role до масиву fillable
+        'role',
     ];
 
     /**
@@ -46,7 +46,7 @@ class User extends Authenticatable
     }
 
     /**
-     * Перевіряємо, чи є користувач адміністратором
+     *
      *
      * @return bool
      */
